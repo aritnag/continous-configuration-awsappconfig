@@ -1,6 +1,6 @@
 #### Continuous Configuration using AWS AppConfig for Microservices 
 
-Solution Design of the AWS Config Agent with Microservices: ![Alt text](solution_design/solution_design.png.png?raw=true "Solution-Design")
+Solution Design of the AWS Config Agent with Microservices: ![Alt text](solution_design/solution_design.png?raw=true "Solution-Design")
 
 
 ### Deployment Framework
