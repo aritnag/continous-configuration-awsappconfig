@@ -1,4 +1,4 @@
- package com.aritra.demo.appconfigdemo;
+/*  package com.aritra.demo.appconfigdemo;
 
 import java.io.UnsupportedEncodingException;
 
@@ -30,4 +30,4 @@ public class AwsAppConfigScheduledTask {
         featureProperties.setName(externalizedConfig.getString("name"));
     } 
 
-} 
+}  */

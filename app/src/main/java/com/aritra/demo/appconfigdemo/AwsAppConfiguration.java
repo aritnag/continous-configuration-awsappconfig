@@ -62,6 +62,7 @@ public class AwsAppConfiguration {
                 .getLatestConfiguration(latestConfigurationRequest);
         String response = latestConfigurationResponse.configuration().asUtf8String();
         return new JSONObject(response).getJSONObject("profile");
+
     }
 
     private AppConfigDataClient configureAWSConfigAgent() {
