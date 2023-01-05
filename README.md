@@ -1,5 +1,6 @@
 #### Continuous Configuration using AWS AppConfig for Microservices 
 
+Solution Design of the AWS Config Agent with Microservices: ![Alt text](solution_design/AWS AppConfig with ECS.png?raw=true "Solution-Design")
 
 
 ### Deployment Framework
