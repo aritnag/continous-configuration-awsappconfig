@@ -13,7 +13,7 @@ public class AppdeployCdkApp {
 
         final Stack appConfigDeploy = new AWSAppConfigDeploy(app, "AWSAppConfigDeploy", StackProps.builder()
                 .build());
-        appConfigDeploy.addDependency(appDeploy);
+       appConfigDeploy.addDependency(appDeploy);
         app.synth();
     }
 }

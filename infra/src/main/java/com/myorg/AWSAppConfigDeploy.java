@@ -60,7 +60,7 @@ public class AWSAppConfigDeploy extends Stack {
         .create(this, "cfn-conf-environment")
         .applicationId(application.getRef())
         .name("dev")
-         .monitors(List.of(MonitorsProperty.builder()
+/*          .monitors(List.of(MonitorsProperty.builder()
         .alarmArn(Alarm.Builder.create(this, "appconfigdemo-Alarm")
         .metric(Metric.Builder.create()
         .namespace("AWS/ApplicationELB")
@@ -84,7 +84,7 @@ public class AWSAppConfigDeploy extends Stack {
         .build())).build()))
         .assumedBy(new ServicePrincipal("appconfig.amazonaws.com"))
         .build().getRoleArn())
-        .build()))
+        .build())) */
         .build();
 
          
