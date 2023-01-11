@@ -1,7 +1,6 @@
 package com.myorg;
 
 import java.util.List;
-import java.util.Map;
 
 import software.amazon.awscdk.Stack;
 import software.amazon.awscdk.StackProps;
@@ -11,15 +10,7 @@ import software.amazon.awscdk.services.appconfig.CfnConfigurationProfile.Validat
 import software.amazon.awscdk.services.appconfig.CfnDeployment;
 import software.amazon.awscdk.services.appconfig.CfnDeploymentStrategy;
 import software.amazon.awscdk.services.appconfig.CfnEnvironment;
-import software.amazon.awscdk.services.appconfig.CfnEnvironment.MonitorsProperty;
 import software.amazon.awscdk.services.appconfig.CfnHostedConfigurationVersion;
-import software.amazon.awscdk.services.cloudwatch.Alarm;
-import software.amazon.awscdk.services.cloudwatch.Metric;
-import software.amazon.awscdk.services.iam.Effect;
-import software.amazon.awscdk.services.iam.PolicyDocument;
-import software.amazon.awscdk.services.iam.PolicyStatement;
-import software.amazon.awscdk.services.iam.Role;
-import software.amazon.awscdk.services.iam.ServicePrincipal;
 import software.constructs.Construct;
 
 public class AWSAppConfigDeploy extends Stack {

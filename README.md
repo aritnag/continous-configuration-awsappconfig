@@ -1,5 +1,8 @@
 #### Continuous Configuration using AWS AppConfig for Microservices 
 
+This repository is part of the engineering blog : [Continuous Configuration using AWS AppConfig for Microservices](https://medium.com/towards-aws/continuous-configuration-using-aws-appconfig-for-microservices-33e71f267827)
+
+
 Solution Design of the AWS Config Agent with Microservices: ![Alt text](solution_design/solution_design.png?raw=true "Solution-Design")
 
 
